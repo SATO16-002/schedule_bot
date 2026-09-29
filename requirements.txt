@@ -1,0 +1,5 @@
+# Зависимости проекта (Python 3.10+)
+aiogram>=3.15,<4.0          # Асинхронная библиотека для Telegram Bot API (Router, FSM, filters)
+APScheduler>=3.10,<4.0      # Планировщик задач (cron-like), работает внутри asyncio event loop
+aiosqlite>=0.20             # Асинхронный драйвер SQLite (не блокирует event loop)
+python-dotenv>=1.0          # Загрузка BOT_TOKEN / ADMIN_IDS из файла .env
